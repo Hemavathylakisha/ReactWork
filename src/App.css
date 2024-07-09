@@ -1,0 +1,226 @@
+/* src/styles.css */
+
+/* Global Styles */
+@keyframes color {
+  0%   { background: #F9AAD1; }
+  20%  { background: #F3DC96; }
+  40%  { background: #E9FABE; }
+  60%  { background: #CCF7E3; }
+  80%  { background: #BFE6F8; }
+  100% { background: #EFD3F8; }
+}
+
+body {
+  margin: 0;
+  /* font-family: mukta; */
+  /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+background: #33CCCC; /* Fallback */
+animation: color 9s infinite linear;
+}
+
+/* Slider Styles */
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 16px;
+}
+h1{
+  font-size: 3.2em;
+    FONT-WEIGHT: 400;
+    text-transform: uppercase;
+}
+.slide {
+  min-width: 300px;
+ flex-shrink: 0;
+scroll-snap-align: start;
+border: 1px solid #ccc;
+background: #DEDFB5;
+border-radius: 10px;
+border-width: 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+color: #008000;
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+padding: 35px 25px;
+transition: all 200ms;
+
+}
+
+.slide img {
+  max-width: 200px;
+  max-height:200px;
+  border-radius: 8px;
+}
+.slide a{
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 0.5em 0.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.slide a:hover{
+  color: rgb(179, 230, 85);
+}
+
+/* Product Details */
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-details img {
+  width: 300px;
+}
+
+.product-details h1 {
+  font-size: 24px;
+}
+
+.product-details p {
+  font-size: 16px;
+}
+
+/* Cart */
+.cart {
+  padding: 16px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cart-item img {
+  width: 100px;
+}
+
+.cart-item h3 {
+  font-size: 20px;
+}
+
+/* Checkout */
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.checkout-form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.checkout-form button {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-form button:hover {
+  background-color: #0056b3;
+}
+
+.contentbox input{
+  width:70%;
+  background-color:#dedede;
+  border:2px solid #45749b;
+  border-radius: 10px;
+  padding:20px;
+  margin: 10px;
+}
+
+.button {
+align-items: center;
+appearance: none;
+background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+border: 0;
+border-radius: 6px;
+box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: "JetBrains Mono",monospace;
+height: 48px;
+justify-content: center;
+line-height: 1;
+list-style: none;
+overflow: hidden;
+padding-left: 16px;
+padding-right: 16px;
+position: relative;
+text-align: left;
+text-decoration: none;
+transition: box-shadow .15s,transform .15s;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+will-change: box-shadow,transform;
+font-size: 18px;
+}
+
+.button:focus {
+box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button:hover {
+box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+transform: translateY(-2px);
+}
+
+.button:active {
+box-shadow: #3c4fe0 0 3px 7px inset;
+transform: translateY(2px);
+}
+.container{
+     width: 80%;
+    background: #fcfcfc;
+    border: 5px solid #DEDFB5;
+    height: auto;
+    top: 70px;
+    border-radius: 15px;
+    position: absolute;
+    left: 7%;padding: 20px;
+  }
+.contentbox{ margin: 50px 0px auto 30px;}
+
+.text{
+  padding:0px 10px;
+  text-decoration: underline;
+}
+.imgsize{
+  max-width: 400px;
+}
+.productinfo{
+  max-width:500px;padding: 0px 30px;
+  display: inline-block;
+  margin:0px 20px 30px;
+}
+
+#heightfix{
+  height: auto;
+}
+.info{
+  color: #008000;
+}
+
+.aligntext{
+  padding: 0px 30px;
+}
+
+
+

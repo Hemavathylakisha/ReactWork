@@ -1,0 +1,439 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 100,
+      "description": "Description for product 1",
+      "image": "/images/product1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 150,
+      "description": "Description for product 2",
+      "image": "/images/product2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "price": 200,
+      "description": "Description for product 3",
+      "image": "/images/product3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "price": 250,
+      "description": "Description for product 4",
+      "image": "/images/product4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "price": 300,
+      "description": "Description for product 5",
+      "image": "/images/product5.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "3",
+      "name": "Mahi",
+      "email": "mk@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "4",
+      "name": "hema",
+      "email": "hema@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "5",
+      "name": "hemalakisha",
+      "email": "hemaluki@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "6",
+      "name": "hemraj",
+      "email": "hemraj@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "orders": [
+    {
+      "id": "6b53",
+      "productId": "2"
+    },
+    {
+      "id": "698a",
+      "productId": "3"
+    },
+    {
+      "id": "5ddc",
+      "productId": "3"
+    },
+    {
+      "id": "5a77",
+      "productId": "1"
+    },
+    {
+      "id": "7b0f",
+      "productId": "1"
+    },
+    {
+      "id": "6006",
+      "productId": "1"
+    },
+    {
+      "id": "eb06",
+      "productId": "1"
+    },
+    {
+      "id": "bcb7",
+      "productId": "2"
+    },
+    {
+      "id": "fa2d",
+      "productId": "2"
+    },
+    {
+      "id": "6125",
+      "productId": "2"
+    },
+    {
+      "id": "3c67",
+      "productId": "2"
+    },
+    {
+      "id": "2d9f",
+      "productId": "2"
+    },
+    {
+      "id": "758e",
+      "productId": "1"
+    },
+    {
+      "id": "9a64",
+      "productId": "2"
+    },
+    {
+      "id": "2192",
+      "productId": "2"
+    },
+    {
+      "id": "18d9",
+      "productId": "2"
+    },
+    {
+      "id": "bb24",
+      "productId": "2"
+    },
+    {
+      "id": "c45f",
+      "productId": "2",
+      "cartMessage": ""
+    },
+    {
+      "id": "82ea",
+      "productId": "2"
+    },
+    {
+      "id": "55ca",
+      "productId": "2"
+    },
+    {
+      "id": "23f2",
+      "productId": "2"
+    },
+    {
+      "id": "ddee",
+      "productId": "2"
+    }
+  ],
+  "cart": [
+    {
+      "id": "9a6c",
+      "productId": "2"
+    },
+    {
+      "id": "0cee",
+      "productId": "2"
+    },
+    {
+      "id": "a71d",
+      "productId": "3"
+    },
+    {
+      "id": "2936",
+      "productId": "3"
+    },
+    {
+      "id": "cce5",
+      "productId": "1"
+    },
+    {
+      "id": "79c7",
+      "productId": "5"
+    },
+    {
+      "id": "ab8c",
+      "productId": "5"
+    },
+    {
+      "id": "45c7",
+      "productId": "1"
+    },
+    {
+      "id": "1738",
+      "productId": "5"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "be17",
+      "name": "hemraj",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    },
+    {
+      "id": "fb4b",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        }
+      ]
+    },
+    {
+      "id": "5007",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        }
+      ]
+    },
+    {
+      "id": "ea46",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        }
+      ]
+    },
+    {
+      "id": "91f6",
+      "name": "hema lakisha",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    },
+    {
+      "id": "34ac",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        },
+        {
+          "id": "a71d",
+          "productId": "3"
+        }
+      ]
+    },
+    {
+      "id": "66fd",
+      "name": "hemraj",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    },
+    {
+      "id": "ed78",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        }
+      ]
+    },
+    {
+      "id": "79c7",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        },
+        {
+          "id": "a71d",
+          "productId": "3"
+        }
+      ]
+    },
+    {
+      "id": "bdd2",
+      "name": "hemraj",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    },
+    {
+      "id": "f163",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        },
+        {
+          "id": "a71d",
+          "productId": "3"
+        },
+        {
+          "id": "2936",
+          "productId": "3"
+        },
+        {
+          "id": "cce5",
+          "productId": "1"
+        },
+        {
+          "id": "79c7",
+          "productId": "5"
+        },
+        {
+          "id": "ab8c",
+          "productId": "5"
+        }
+      ]
+    },
+    {
+      "id": "3825",
+      "name": "hemraj",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    },
+    {
+      "id": "a26a",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        },
+        {
+          "id": "a71d",
+          "productId": "3"
+        },
+        {
+          "id": "2936",
+          "productId": "3"
+        },
+        {
+          "id": "cce5",
+          "productId": "1"
+        },
+        {
+          "id": "79c7",
+          "productId": "5"
+        },
+        {
+          "id": "ab8c",
+          "productId": "5"
+        },
+        {
+          "id": "45c7",
+          "productId": "1"
+        }
+      ]
+    },
+    {
+      "id": "bb83",
+      "name": "hema",
+      "address": "no 78 ss nagar",
+      "email": "hema@gmail.com"
+    },
+    {
+      "id": "6417",
+      "cart": [
+        {
+          "id": "9a6c",
+          "productId": "2"
+        },
+        {
+          "id": "0cee",
+          "productId": "2"
+        },
+        {
+          "id": "a71d",
+          "productId": "3"
+        },
+        {
+          "id": "2936",
+          "productId": "3"
+        },
+        {
+          "id": "cce5",
+          "productId": "1"
+        },
+        {
+          "id": "79c7",
+          "productId": "5"
+        },
+        {
+          "id": "ab8c",
+          "productId": "5"
+        },
+        {
+          "id": "45c7",
+          "productId": "1"
+        },
+        {
+          "id": "1738",
+          "productId": "5"
+        }
+      ]
+    },
+    {
+      "id": "3b9e",
+      "name": "hemraj",
+      "address": "no 78 ss nagar",
+      "email": "hemraj@gmail.com"
+    }
+  ]
+}
